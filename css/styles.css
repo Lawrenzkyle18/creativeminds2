@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy|Simonetta&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #39393b;
+}
+
+main {
+  max-width: 1080px;
+  margin: auto;
+  display: block;
+}
+
+/*Showcase AREA*/
+
+header {
+  background: url(../images/kimjok-happy.jpeg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+#brand-name a {
+  text-decoration: none;
+  font-family: "Satisfy";
+  color: #ffff;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.wrapper1 {
+  padding-top: 50px;
+}
+
+/* Video*/
+
+.video-box {
+  width: 80vw;
+  height: 40vh;
+  margin: 50px;
+}
+
+/*Utilities*/
+
+.about-img {
+  width: 40%;
+  height: 20%;
+  border-radius: 100%;
+}
+
+.img-contact {
+  width: 50%;
+  height: 40%;
+}
